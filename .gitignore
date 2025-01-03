@@ -1,0 +1,109 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+android/app/src/main/res/drawable-ldpi/
+android/app/src/main/res/drawable-mdpi/
+android/app/src/main/res/drawable-xhdpi/
+android/app/src/main/res/drawable-hdpi/
+android/app/src/main/res/drawable-xxhdpi/
+android/app/src/main/res/drawable-xxxhdpi/
+android/app/src/main/res/raw/
+android/app/release/
+
+android/app/google-services.json
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+**/ios/GoogleService-Info.plist
+# Environment files
+**/environment.json
+
+# Secrets
+.decrypted
+*.dec.yaml
+main.jsbundle
+index.android.bundle
+./ios/main.jsbundle
+*.hprof
+android/app/src/main/assets/index.android.bundle
+
+# IOS Builds
+ios/assets/*
+**/*.xcarchive
+ios/ExportOptions.plist
+**/DistributionSummary.plist
+**/Packaging.log
+build/
+ios/build/
+**/*.ipa
+logs/
+**/*.dec.env
+
+# Fastlane
+ios/fastlane/builds
+ios/fastlane/com.litpic*
+ios/fastlane/match\ *
+.bash_profile
+.scannerwork/
+sonar-project.properties
+package-lock.json
+ios/Podfile.lock
+yarn.lock
