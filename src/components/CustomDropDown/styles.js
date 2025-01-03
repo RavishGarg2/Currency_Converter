@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
     marginTop: 40,
     height : 150,
     zIndex : 100,
-    position : 'absolute'
+    position : 'absolute',
+    minWidth : 170
   },
   dropdownItem: {
     fontWeight: '400',
